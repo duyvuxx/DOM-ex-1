@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Air Jordan 1",
+      "price": "180$",
+      "img": "./assets/imgs/aj1.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 2,
+      "name": "Air Jordan 2",
+      "price": "185$",
+      "img": "./assets/imgs/aj2.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 3,
+      "name": "Air Jordan 3",
+      "price": "190$",
+      "img": "./assets/imgs/aj3.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 4,
+      "name": "Air Jordan 4",
+      "price": "195$",
+      "img": "./assets/imgs/aj4.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 5,
+      "name": "Air Jordan 5",
+      "price": "200$",
+      "img": "./assets/imgs/aj5.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 6,
+      "name": "Air Jordan 6",
+      "price": "210$",
+      "img": "./assets/imgs/aj6.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 7,
+      "name": "Air Jordan 7",
+      "price": "230$",
+      "img": "./assets/imgs/aj7.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 8,
+      "name": "Air Jordan 8",
+      "price": "234$",
+      "img": "./assets/imgs/aj8.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 9,
+      "name": "Air Jordan 9",
+      "price": "240$",
+      "img": "./assets/imgs/aj9.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 10,
+      "name": "Air Jordan 10",
+      "price": "250$",
+      "img": "./assets/imgs/aj10.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 11,
+      "name": "Air Jordan 11",
+      "price": "270$",
+      "img": "./assets/imgs/aj11.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 12,
+      "name": "Air Jordan 12",
+      "price": "245$",
+      "img": "./assets/imgs/aj12.png",
+      "completed": false,
+      "deleted": false
+    },
+    {
+      "id": 13,
+      "name": "Air Jordan 13",
+      "price": "280$",
+      "img": "./assets/imgs/aj13.png",
+      "completed": false,
+      "deleted": false
+    }
+  ]
+}
