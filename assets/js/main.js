@@ -3,22 +3,24 @@ const $$ = document.querySelectorAll.bind(document);
 
 const listItem = $(".product");
 
-listItem.innerHTML = `<p>...Loading</p>`;
+listItem.innerHTML = `<div class="spinner-grow text-dark" role="status">
+<span class="visually-hidden">Loading...</span>
+</div>`;
 
 setTimeout(() => {
   const getItems = async () => {
-    const res = await fetch(" http://localhost:3000/items");
+    const res = await fetch("https://fakestoreapi.com/products");
     const data = await res.json();
 
     html = data
       .map((val) => {
         return `<li class="product-items">
       <div class="product-items-img">
-        <img src="${val.img}" alt="${val.name}" />
+        <img src="${val.image}" alt="${val.title}" />
       </div>
       <div class="product-items-infor">
-        <h3 class="name">${val.name}</h3>
-        <p class="price">${val.price}</p>
+        <h3 class="name">${val.title.slice(0, 23)}</h3>
+        <p class="price">${val.price}$</p>
       </div>
     </li>`;
       })
